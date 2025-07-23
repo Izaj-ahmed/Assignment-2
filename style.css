@@ -1,0 +1,38 @@
+
+body{
+    background-color: #8987a128;
+}
+
+/* Nav */
+
+.padding{
+    padding: 0 100px;
+}
+
+.navbar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-container{
+    display: flex;
+    text-align: center;
+}
+
+.list-container li{
+    list-style: none;
+    margin-right: 48px;
+    
+}
+
+.list-container #trolly{
+    width: 20px;
+    height: 20px;
+}
+
+.list-container a{
+    text-decoration: none;
+    color: black;
+}
