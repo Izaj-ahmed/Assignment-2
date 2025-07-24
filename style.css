@@ -25,6 +25,11 @@ body{
   color: rgba(0, 0, 0, 0.39);
 }
 
+
+.p-decoration{
+    width: 888px;
+}
+
 /* Nav */
 
 .padding{
@@ -127,9 +132,6 @@ body{
     margin-bottom: 0;
 }
 
-.card-intro p{
-    width: 888px;
-}
 
 .card-items{
     width: 250px;
@@ -202,6 +204,150 @@ body{
 
 /* plant lover */
 
+.plants-lover{
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.plants-lover #badge{
+    width: 256px;
+    height: 256px;
+    margin-left: -170px;
+    margin-top: -130px;
+}
+
+.plants-reveiw h3{
+    font-size: 2.7rem;
+    width: 400px;
+    height: 137px;
+    margin-bottom: 0;
+}
+
+.plants-reveiw ul li{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 576px){
+    .plants-lover{
+        flex-direction: column;
+        margin: 0;
+        padding: 0 15px;
+    }
+    
+}
+
+
+/*  */
+
+.Deals{
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 100px;
+}
+
+.Deals h3{
+    font-size: 2.7rem;
+    margin-bottom: 0;
+}
+.deal-pic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: "Inter", sans-serif;
+}
+
+
+.bolom{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(/assets/deal-bloom.png);
+    width: 356px;
+    height: 192px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+}
+
+.bolom-contants{
+    text-align: center;
+    padding: 65px 0;
+}
+
+.ana{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(/assets/deal-ana.png);
+    width: 356px;
+    height: 192px;
+    border-radius: 14px;
+}
+
+.ana-contants{
+    text-align: center;
+    padding: 65px 0;
+}
+
+.zabo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(/assets/deal-zabo.png);
+    width: 730px;
+    height: 414.13px;
+    margin-left: 25px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.zabo h3{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.zabo a{
+    color: white;
+    font-size: 1.5rem;
+}
+.zabo-contants{
+    padding: 142px 0;
+}
+
+
+.double-image{
+    height: 423.13px;
+}
+
+.double-image h3{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.double-image a{
+    color: white;
+}
 
 
 
+@media screen and (max-width: 576px){
+    .deal-container{
+        margin: 0;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .deal-pic{
+        grid-template-columns: 1fr;
+        
+    }
+
+    .zabo{
+        width: 356px;
+        height: 192px;
+        margin: 0;
+    }
+    .deal-container h3{
+        font-size: 1.5rem;
+    }
+    .deal-container p{
+        width: 336px;
+        height: 68px;
+        font-size: 0.8rem;
+    }
+    .zabo-contants, .ana-contants, .bolom-contants{
+        padding: 50px 0;
+    }
+
+}
