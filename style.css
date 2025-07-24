@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
 
 body{
     background-color: #8987a128;
+}
+
+.text-color{
+    color: #E95A08;
 }
 
 /* Nav */
@@ -35,4 +48,36 @@ body{
 .list-container a{
     text-decoration: none;
     color: black;
+}
+
+/* nav for mobile */
+
+@media screen and (max-width: 576px){
+    .navbar{
+        width: 100%;
+        margin: 0 16px;
+        padding: 0;
+
+    }
+    .logo{
+        width: 60px;
+        height: 35px;
+    }
+    .hidden-list{
+        display: none;
+    }
+}
+
+
+/* section of introduction */
+
+.introduction{
+    display: flex;
+}
+.introduction-heading{
+    padding-top: 100px;
+}
+.introduction-heading h2{
+    font-size: 3.5rem;
+    margin-bottom: 0;
 }
