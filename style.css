@@ -73,6 +73,7 @@ body{
 
 .introduction{
     display: flex;
+    margin-top: 100px;
 }
 .introduction-heading{
     padding-top: 100px;
