@@ -27,7 +27,7 @@ body{
 
 
 .p-decoration{
-    padding: 0 100px;
+    padding: 0 150px;
 }
 
 /* Nav */
@@ -183,6 +183,7 @@ body{
     }
     .card-intro p{
         font-size: 0.8rem;
+        padding: 0 50px;
     }
     .cart{
         display: grid;
@@ -332,12 +333,15 @@ body{
     .deal-container{
         margin: 0;
         margin-bottom: 50px;
-        padding: 0 20px;
+        padding: 0;
+        
         text-align: center;
     }
     .deal-pic{
         grid-template-columns: 1fr;
-        
+        /* padding-left: 30px; */
+        align-items: center;
+        justify-items: center;
     }
 
     .Deals{
