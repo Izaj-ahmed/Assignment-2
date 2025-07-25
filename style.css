@@ -27,7 +27,7 @@ body{
 
 
 .p-decoration{
-    width: 888px;
+    padding: 0 100px;
 }
 
 /* Nav */
@@ -126,7 +126,7 @@ body{
 
 .card-intro{
     text-align: center;
-    justify-items: center;
+    margin-bottom: 100px;
 }
 .card-intro h3{
     margin-bottom: 0;
@@ -173,12 +173,15 @@ body{
         margin: 0;
         padding: 0;
     }
+
+    .card-intro{
+        margin-bottom: 50px;
+        align-items: center;
+    }
     .card-intro h3{
         font-size: 1.5rem;
     }
     .card-intro p{
-        width: 336px;
-        height: 68px;
         font-size: 0.8rem;
     }
     .cart{
@@ -188,7 +191,7 @@ body{
     .card-items{
         width: 171px;
         height: 340.5px;
-        margin-right: 20px;
+        /* margin-right: 20px; */
         padding: 0 0 25px 16px;
     }
     .card-items img{
@@ -242,7 +245,6 @@ body{
 
 .Deals{
     text-align: center;
-    justify-items: center;
     margin-bottom: 100px;
 }
 
@@ -340,6 +342,7 @@ body{
 
     .Deals{
         margin-bottom: 50px;
+        align-items: center;
     }
 
     .zabo{
@@ -351,13 +354,15 @@ body{
         font-size: 1.5rem;
     }
     .deal-container p{
-        width: 336px;
-        height: 68px;
         font-size: 0.8rem;
     }
     .zabo-contants, .ana-contants, .bolom-contants{
         padding: 50px 0;
     }
+    .p-decoration{
+        padding: 0;
+    }
+
 
 }
 
@@ -481,5 +486,8 @@ body{
     }
     .footer-image{
         margin-top: 25px;
+    }
+    .footer-logo{
+        margin-right: 0;
     }
 }
